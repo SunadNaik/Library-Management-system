@@ -2,7 +2,7 @@
 session_start();
 $dbservername = "127.0.0.1";
 $dbusername = "root";
-$dbpassword = "SUNAD";
+$dbpassword = "";
 // Create connection
 $conn = mysqli_connect($dbservername, $dbusername, $dbpassword);
 // Check connection
